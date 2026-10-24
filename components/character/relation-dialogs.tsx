@@ -27,7 +27,7 @@ export function RelationLinkDialog({
     <div className="wt-modal" onClick={onCancel}>
       <div className="wt-paper" onClick={e => e.stopPropagation()}>
         <div className="wt-paper-tape" aria-hidden />
-        <div className="wt-paper-kicker">RED STRING</div>
+        <div className="wt-paper-kicker">建立关系</div>
         <div className="wt-relation-row">
           <strong>{fromName}</strong>
           <span className="wt-relation-dash">是</span>
@@ -67,7 +67,7 @@ export function RelationPairSheet({
     <div className="wt-modal" onClick={onClose}>
       <div className="wt-paper" onClick={e => e.stopPropagation()}>
         <div className="wt-paper-tape" aria-hidden />
-        <div className="wt-paper-kicker">RELATIONS</div>
+        <div className="wt-paper-kicker">角色关系</div>
         {relations.length === 0 ? (
           <p className="wt-paper-hint">这两人之间已经没有关系线了。</p>
         ) : (

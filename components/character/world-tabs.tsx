@@ -85,7 +85,7 @@ export function WorldCaseSheet({
     <div className="wt-modal" onClick={save}>
       <div className="wt-paper" onClick={e => e.stopPropagation()}>
         <div className="wt-paper-tape" aria-hidden />
-        <div className="wt-paper-kicker">CASE FILE</div>
+        <div className="wt-paper-kicker">世界卷宗</div>
         <label className="wt-paper-label">卷宗名称</label>
         <input
           className="wt-paper-input"
@@ -139,7 +139,7 @@ export function NewWorldSheet({
     <div className="wt-modal" onClick={onClose}>
       <div className="wt-paper" onClick={e => e.stopPropagation()}>
         <div className="wt-paper-tape" aria-hidden />
-        <div className="wt-paper-kicker">NEW CASE</div>
+        <div className="wt-paper-kicker">新建卷宗</div>
         <label className="wt-paper-label">新卷宗名称</label>
         <input
           className="wt-paper-input"
